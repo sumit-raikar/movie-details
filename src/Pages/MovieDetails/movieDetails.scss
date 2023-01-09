@@ -1,0 +1,29 @@
+.movie-details {
+  width: 50vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1em;
+  img {
+    height: 400px;
+  }
+  .additional-info {
+    grid-column: 1 / -1;
+  }
+  .aleady-wishlist {
+    background: rgba(3, 37, 65);
+    color: white;
+    padding: 0.5rem;
+  }
+  .wishlist-button {
+    background: rgba(30, 213, 169);
+    border-color: rgba(30, 213, 169);
+    border-style: groove;
+    border-radius: 15px;
+    padding: 0.2em 0.5em;
+    color: #eee;
+    cursor: pointer;
+  }
+}

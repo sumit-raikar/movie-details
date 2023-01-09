@@ -1,0 +1,45 @@
+.wishlist__show {
+  display: block;
+  position: absolute;
+  right: 0;
+  z-index: 9999999;
+  width: 30vw;
+  height: 50vh;
+  overflow-y: auto;
+  background: #eee;
+  border-radius: 15px;
+  padding: 0rem;
+  border: 1px solid black;
+  .no-wishlist {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+}
+.wishlist__hide {
+  display: none;
+}
+
+.wishlist-card {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 0.5rem;
+  margin: 1rem;
+  border-bottom: 1px solid;
+  .title {
+    margin: 0;
+    cursor: pointer;
+  }
+  .rating {
+    margin: 0.5rem 0;
+    font-size: 0.8em;
+  }
+  .delete-cross {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

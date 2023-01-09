@@ -1,0 +1,52 @@
+.site-header {
+  border-bottom: 1px solid #ccc;
+  padding: 0rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-identity h1 {
+  margin: 0.6rem 0;
+  display: inline-block;
+}
+
+.site-identity button {
+  font-size: 1.5rem;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.site-navigation ul,
+.site-navigation li {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4rem 1rem 1rem 1rem;
+}
+
+.site-navigation button {
+  font-size: 1rem;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.site-wishlist {
+  position: relative;
+}
+
+.site-wishllist__box {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid rgba(3, 37, 65);
+  padding: 1px;
+  display: inline-block;
+  background: rgba(3, 37, 65);
+  color: white;
+  margin-left: 1px;
+}
